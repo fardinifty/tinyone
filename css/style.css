@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+
+    list-style: none;
+}
+a{
+
+    text-decoration: none;
+}
+body{
+    /* font-family: 'PT Sans', sans-serif; */
+   
+}
+.nav-link{
+    color: #010101;
+}
+.nav-item{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22pt;
+}
+.navbar-brand{
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    color: #010101;
+    font-size: 30pt;
+}
+.navbar{
+    background-color: #fcdb00;
+}
+
+/* banner part start  */
+#banner{
+    background-color: #fcdb00;
+    padding: 120px 0;
+}
+#banner h4{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#banner h6{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #313841;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+#banner p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #313841;
+    text-align: justify;
+}
+#banner a{
+    margin-right: 25px; 
+
+}
+.social{
+    margin-top: 50px;
+}
+.box{
+    display: flex;
+    position: relative;
+    height: 465px;
+    width: 318px;
+    background-color: aliceblue;
+    margin-left: 235px;
+    border-radius: 7%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fox{
+    position: absolute;
+    display: flex;
+    height: 380px;
+    width: 290px;
+    background-color: #010101;
+    line-height: 425px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fcdb00;
+}
+.fox a{
+    position: absolute;
+    color: #fcdb00;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+/* banner part end  */
+
+
+/* feature part start  */
+.common_head{
+    padding: 50px;
+}
+.common_head h4{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 80px;
+    text-align: center;
+}
+.common_head p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #313841;
+    margin-bottom: 60px;
+}
+.feat-content h6{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+.feat-content p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #898989;
+}
+#feature{
+    padding-bottom: 150px;
+}
+.text{
+margin-bottom: 100px;
+}
+  
+/* feature part end */
+
+
+
+/* input part start  */
+#input{
+    background-color: #010101;
+}
+.head h4{
+    color: #fcdb00;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 100px;
+    text-align: center;
+}
+.head p{
+    color: #898989;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.btn{
+    background-color: #fcdb00;
+    color: #010101;
+    border-color: #fcdb00;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all linear .3s;
+    width: 130px;
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color: #010101;
+    color: #fcdb00;
+    border-color: #010101;
+    transition: all linear .3s;
+}
+.d-flex{
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    border-color: #010101;
+    height: 43px;
+    width: 580px;
+    color: #898989a6;
+}
+/* input part end */
+
+
+
+/* linking part start  */
+.media_icon{
+    background-color: #010101;
+}
+.media_icon ul{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 50px 0; 
+}
+.media_icon li{
+    float: left;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fcdb00;
+    border-radius: 20%;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px;
+    background-color: #fcdb00;   
+}
+.media_icon ul li a{
+    color: #010101;
+}
+/* linking part end */
+
+
+
+/* footer part start */
+#footer{
+    background-color: #010101;
+    padding: 40px;
+    gap: 0;
+}
+#footer p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 5px;
+}
+/* footer part end */
+
+
